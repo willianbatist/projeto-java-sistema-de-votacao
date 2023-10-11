@@ -427,7 +427,7 @@ Se a pessoa escolher a opção 2 ("Resultado parcial"), o resultado parcial deve
 
 <summary><strong> 🗣 Nos dê feedbacks sobre o projeto!</strong></summary>
 
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o [formulário](https://be-trybe.typeform.com/to/ZTeR4IbH).
+Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o [formulário](https://be-trybe.typeform.com/to/ZTeR4IbH#cohort_hidden=CH1&template=betrybe/java-0x-projeto-sistema-de-votacao).
 **Leva menos de 3 minutos!**
 
 </details>
