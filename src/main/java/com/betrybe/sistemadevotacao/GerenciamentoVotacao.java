@@ -80,7 +80,7 @@ public class GerenciamentoVotacao implements GerenciamentoVotacaoInterface {
     } else {
       for (PessoaCandidata candidata : pessoasCandidatas) {
         System.out.printf("Nome: %s - %s votos ( %s%s )%n", candidata.getNome(),
-            candidata.getVotos(), (candidata.getVotos() / cpfsComputados.size()) * 100, "%");
+            candidata.getVotos(), candidata.getVotos() * 100 / cpfsComputados.size(), "%");
       }
       System.out.printf("Total de votos: %s%n", cpfsComputados.size());
     }

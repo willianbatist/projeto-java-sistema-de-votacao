@@ -32,7 +32,6 @@ public class Principal {
       int numeroCandidata = Integer.parseInt(scanInput.next());
       gerVotacao.cadastrarPessoaCandidata(nomeCandidata, numeroCandidata);
     }
-    ;
     while (true) {
       System.out.println("Cadastrar pessoa eleitora?");
       System.out.println("1 - Sim");
@@ -65,9 +64,11 @@ public class Principal {
         gerVotacao.mostrarResultado();
       }
       if (Objects.equals(opcaoVotar, "3")) {
+        gerVotacao.mostrarResultado();
         break;
       }
     }
+    scanInput.close();
   }
 
 }
