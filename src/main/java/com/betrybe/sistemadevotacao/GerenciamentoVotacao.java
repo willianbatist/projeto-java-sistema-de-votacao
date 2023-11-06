@@ -1,7 +1,6 @@
 package com.betrybe.sistemadevotacao;
 
-import java.util.ArrayList;
-import java.util.Objects;
+
 
 /**
  * The type Gerenciamento votacao.
